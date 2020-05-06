@@ -1,0 +1,28 @@
+type User {
+    _id: ID
+    username: String!
+    email: String
+    password: String!
+    joinDate: String
+}
+
+type Contact {
+    _id: ID
+    name: String!
+    phone: String!
+    mail: String!
+    createdDate: String
+    createdBy: User!
+}
+
+type Query {
+    getUser(username: String!, password: String!): User! 
+    getContacts: [Contact]
+}
+
+type Mutation {
+    addContact(name: String!, phone: String!, mail: String!, creatorId: ID!): Contact!
+    editContact(_id: ID!, name: String!, phone: String!, mail: String!): Contact!
+    deliteContact(_id: ID!): Contact!
+    signupUser(username: String!, password: String!): User! 
+}
