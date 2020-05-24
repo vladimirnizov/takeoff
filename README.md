@@ -1,7 +1,7 @@
 
 How to start a project?
 
- The first step is to download it.  Next, open the terminal in the main directory and write "npm install". 
+ The first step is to download it.  Next, open the terminal in the main directory and run "npm install". 
 
  The server is ready to start. Run "npm start".
 
