@@ -1,21 +1,17 @@
-# Инструкция
 
-Так как я как раз изучаю graphql то решил воспользоваться возможностью и потренироваться.
-Сделал так же полноценный сервер-сайд.
+How to start a project?
 
-Как запустить проект?
+ The first step is to download it.  Next, open the terminal in the main directory and write "npm install", wait.
+ *** Make sure the .env file is present !!
 
-Первым делом скачать его. Далее открываем терминал в главной директории и пишем "npm install", ждем.
-***Убедитесь что фаил .env присутствует!!
+ The server is ready to start. Run "npm start".
 
-Сервер готов к запуску. Пишем "npm start".
+ Now open another terminal window, go to the "takeoff-client" folder, and run "npm install", wait.
+ *** Make sure the .env file is present !!
 
-Теперь открываем еще одно окно терминала, переходим в папку "takeoff-client", и снова пишем "npm install", ждем.
-***Убедитесь что фаил .env присутствует!!
+ The client is ready to launch.  Run "npm run dev".
 
-Клиент готов к запуску. Пишем "npm run dev". (билд не делал, уж простите)
-
-Теперь переходим на http://localhost:3000 и наслаждаемся.
-****
-логин: admin
-пароль: 12345
+ Now go to http: // localhost: 3000 and enjoy.
+ ****
+ login: admin
+ password: 12345
